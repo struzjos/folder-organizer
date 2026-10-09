@@ -1,0 +1,44 @@
+# Folder Organizer settings
+#
+# This file was created automatically on the first start from
+# src/folder_organizer/default_settings.toml.
+# - Edit it freely. Any option you remove falls back to its default.
+# - Delete it to get a fresh copy on the next start.
+# - Changes take effect after restarting the app (tray icon -> Quit, then run.bat).
+
+[day]
+# Time when a new "day" starts for the Daily list (24h clock, HH:MM).
+# Before this time you are still working on the previous day.
+reset_time = "04:00"
+
+[window]
+# Keep the widget above other windows. The pin button in the header
+# toggles this while the app runs and remembers your choice.
+always_on_top = false
+
+# Window opacity from 0.2 (almost transparent) to 1.0 (solid).
+opacity = 0.95
+
+# Initial window width in pixels. After the first start, the window
+# remembers its own position and size.
+width = 520
+
+# "horizontal" = Permanent and Daily side by side, "vertical" = stacked.
+layout = "horizontal"
+
+# Where the Permanent list goes: "left" / "right" (horizontal layout)
+# or "top" / "bottom" (vertical layout). Daily takes the other side.
+permanent_side = "left"
+
+# Start hidden in the system tray (click the tray icon to show the widget).
+start_hidden = false
+
+[storage]
+# Where history and window state are stored.
+# A relative path is relative to the project folder.
+data_dir = "data"
+
+[permanent_history]
+# Maximum number of Permanent list versions to keep. The oldest are
+# deleted first. 0 = keep all.
+max_snapshots = 1000
