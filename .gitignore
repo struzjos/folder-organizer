@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Runtime data (history, state) - created by the app
+data/
+
+# Personal config - generated on first run from src/folder_organizer/default_settings.toml
+config/settings.toml
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Claude Code local settings
+.claude/settings.local.json
